@@ -1,0 +1,41 @@
+:root{
+    --vermelho:#e50914;
+    --preta:#141414;
+    --branco: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Base*/
+body{
+    background: var(--preta);
+    font-family:Helvetica,Arial,sans-serif;
+    color: var(--branco);
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family:'Courier New';
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--branco);
+}
